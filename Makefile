@@ -1,4 +1,4 @@
-# A simple way to update Flask Heroku's static files.
+## A simple way to update Flask Heroku's static files.
 
 # ----------------------
 #  Useful variables

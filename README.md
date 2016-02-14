@@ -157,3 +157,4 @@ Lastly, add the following A records to your DNS management tool.
 =======
 # lab3-ex1
 >>>>>>> 7ec2e695201496d010625aac46e030816bb87d2d
+#
