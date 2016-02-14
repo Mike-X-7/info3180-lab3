@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <title>Contact Form</title>
+    <head>
+        <style>
+        
+        body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#header {
+    position: relative;
+    top: -10px;
+    background-color: #6d39a6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	height: 40px;
+}
+
+h1 {
+	font-family: Lobster;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#wrapper {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    position: relative;
+    top: -10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 3px #444;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+}
+	
+#inputs {
+	width: 200px;
+	margin: 0 auto;
+	clear: both;
+}
+	
+#inputs input {
+    padding-right: 20px;
+	
+	clear: both;
+
+}
+#enter{
+	color: #6d39a6;
+	background-color: #dde368;
+}
+	
+.changeColour{
+    background-color: red;
+}
+        </style>
+    </head>
+<body>
+
+<div id="header"><h1>Contact Form</h1></div>
+<div id="wrapper">
+	<div id="inputs">
+	<form action="contact.html" method="post">
+    <h3>Fill in this form to contact the site owners.</h3>
+    <h4>Name</h4>
+    <label>Please enter your full name</label>
+    <input class="inp_txt" type="text" name="name" autofocus />
+    <h4>E-Mail</h4>
+    <label>Please enter your email address</label>
+    <input class="inp_txt" type="email" name="email" />
+    <h4>Subject</h4>
+    <!--<label>Please enter your full name</label>-->
+    <input class="inp_txt" type="text" name="subject" />
+    <h4>Message</h4>
+    <label>Please enter your message</label>
+    <textarea name="message"></textarea>
+    <input class="btn_submit" type="submit" name="submit" value="Send" />
+  </form>
+	</div>
+	</div>
+
+</body>
+</html>
